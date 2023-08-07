@@ -16,7 +16,7 @@ spec:
       - name: mvc
         # image: demoaks0acr.azurecr.io/web-app:1.3
         # image: houssemdocker/webapp:111
-        image: bharath95190/webapp:#{IMAGE_TAG}#
+        image: testsendil/webapp:#{IMAGE_TAG}#
         # image: __ACR_NAME__.azurecr.io/__DOCKER_IMAGE__:__TAG__
         ports:
         - containerPort: 80
